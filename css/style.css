@@ -1,0 +1,277 @@
+/*Common CSS start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #131212;
+}
+/*Common CSS end*/
+
+/*Header start*/
+header{
+	padding: 15px 0;
+	background-color: #000101;
+	/*border: 1px solid;*/
+}
+
+.container{
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	width: 90%;
+	overflow: hidden;
+}
+
+.site_logo{
+	width: 10%;
+	/*border: 1px solid;*/
+	float: left;
+}
+.site_logo h2{
+	margin: 0;
+	padding: 6px;
+	font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    color: #F5005F;
+}
+
+.menu{
+	width: 60%;
+	/*border: 1px solid;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+    float: left;
+}
+.menu ul li a{
+	margin: 0 20px;
+	font-size: 18px;
+    display: inline-block;
+    color: #F5005F;
+    text-decoration: none;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*Header end*/
+
+/*Banner start*/
+.banner{
+	padding: 200px 0;
+	background-color: #000101;
+}
+
+.container1{
+	margin: 0 auto;
+	width: 60%;
+	/*border: 1px solid red;*/
+}
+
+.b_content{
+	text-align: center;
+	color: #FFFFFF;
+}
+.b_content h1{
+   	margin: 0;
+    font-size: 65px;
+    font-weight: 600;
+}
+.b_content h2{
+	margin: 20px 0 50px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.b_content button{
+    padding: 20px 50px;
+    font-size: 16px;
+    border: 1px solid #F5005F;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background-color: #F5005F;
+}
+/*Banner end*/
+
+/*About start*/
+.about{
+	padding: 130px 0px 50px;
+}
+
+.a_content{
+	text-align: center;
+}
+.a_content h2{
+	margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+    color: #131212;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.a_content p{
+    margin: 0;
+    padding: 50px 100px 80px;
+    color: #CACACA;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+.a_content button{
+	padding: 20px 40px;
+    font-size: 16px;
+    border: 1px solid #F5005F;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background-color: #F5005F;
+}
+/*About end*/
+
+/*Service start*/
+.service{
+	padding: 80px 0px 50px;
+}
+
+.s_content{
+	overflow: hidden;
+}
+
+.single{
+	width: 33.16%;
+	/*border: 1px solid;*/
+	text-align: center;
+	float: left;
+}
+.single h2{
+	margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #131212;
+}
+.single ul{
+	margin: 0;
+    padding: 20px 30px;
+}
+.single ul li{
+	font-size: 18px;
+    list-style: none;
+    color: #CACACA;
+    line-height: 35px;
+}
+/*Service end*/
+
+/*Small Border Start*/
+.small_border{
+	margin: 0 auto;
+	padding: 30px 0 50px;
+	width: 3%;
+}
+
+.small_border hr{
+	border: 2px solid #F5005F;
+	border-radius: 5px;
+}
+/*Small Border End*/
+
+/*Portfolio start*/
+.portfolio{
+	padding: 130px 0px 50px;
+}
+
+.p_content{
+	text-align: center;
+}
+.p_content h2{
+	margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+    color: #131212;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    /*text-align: center;*/
+}
+.p_content p{
+	margin: 50px 335px 50px;
+    color: #CACACA;
+    line-height: 30px;
+    word-spacing: 2px;
+    /*text-align: center;*/
+}
+
+.p_images{
+	/*border: 1px solid green;*/
+	overflow: hidden;
+}
+
+.p_image{
+	margin: 0 2% 2% 0;
+    width: 31.99%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.p_image:nth-child(3), .p_image:nth-child(6){
+	margin-right: 0;
+}
+.p_image img{
+	width: 100%;
+}
+/*Portfolio end*/
+
+/*Contact start*/
+.contact{
+	padding: 100px 0;
+}
+
+.c_content{
+	text-align: center;
+}
+.c_content h2{
+	margin: 0 0 45px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #131212;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.c_content button{
+	margin: 0 0 90px;
+	padding: 20px 50px;
+    font-size: 16px;
+    border: 1px solid #F5005F;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background-color: #F5005F;
+}
+
+.c_image{
+	margin: 0 auto;
+	width: 40%;
+	/*border: 1px solid;*/
+}
+.c_image img{
+	width: 100%;
+}
+/*Contact end*/
+
+/*Footer start*/
+footer{
+	padding: 15px 0;
+	background-color: #000101;	
+}
+
+.f_text{
+	text-align: center;
+}
+.f_text p{
+	color: #FFFFFF;
+}
+.f_text p a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+/*Footer end*/
